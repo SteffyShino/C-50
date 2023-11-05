@@ -1,0 +1,33 @@
+h1 {
+    color: rgb(0, 0, 0);
+}
+/* *{
+border: solid;
+} */
+
+.header{
+    background-color:rgb(212, 0, 255) ;
+    display: flex;
+    justify-content: space-between;
+}
+
+.description{
+    display: flex;
+    flex-direction:column;
+    justify-content:first baseline ;
+}
+
+.projects{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+p,h2{
+    text-align: center;
+}
